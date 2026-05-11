@@ -68,6 +68,12 @@ När deployen är klar bör appen finnas på:
 https://chipchop87.github.io/SpetsGuiden/
 ```
 
+## Installera som PWA
+
+GitHub Pages-versionen är förberedd som PWA. När appen öppnas via länken ovan kan den installeras från webbläsaren, till exempel via **Installera app**, **Lägg till på startskärmen** eller motsvarande menyval.
+
+PWA-versionen har manifest och service worker, vilket gör att appens grundfiler kan cachelagras lokalt efter första besöket.
+
 ## Innehåll i appen
 
 Appen har tre huvuddelar:

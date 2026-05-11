@@ -1,10 +1,14 @@
 {
   "name": "SpetsGuiden",
   "short_name": "SpetsGuiden",
+  "description": "En svensk valp-till-vuxen-guide för ägare till finsk spets.",
   "start_url": "./",
+  "scope": "./",
   "display": "standalone",
+  "orientation": "portrait-primary",
   "background_color": "#f8efe5",
   "theme_color": "#9b4f2c",
+  "categories": ["education", "lifestyle", "reference"],
   "icons": [
     {
       "src": "finsk-spets.svg",

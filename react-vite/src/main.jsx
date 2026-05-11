@@ -4,6 +4,14 @@ import { AlertTriangle, Baby, Dog, HeartPulse, Home, ListChecks, PawPrint, Shiel
 import { stages, warnings } from "./content.js";
 import "./styles.css";
 
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register(`${import.meta.env.BASE_URL}service-worker.js`, {
+      scope: import.meta.env.BASE_URL
+    });
+  });
+}
+
 function BulletSection({ icon: Icon, title, items, tone = "" }) {
   return (
     <section className={`stage-section ${tone}`}>
