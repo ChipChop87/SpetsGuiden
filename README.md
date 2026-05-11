@@ -40,7 +40,7 @@ npm run dev
 
 3. Öppna adressen som visas i terminalen.
 
-I den här miljön körs appen på:
+Lokalt kan appen köras på:
 
 ```text
 http://127.0.0.1:5174
@@ -50,6 +50,22 @@ För att bygga en produktionsversion:
 
 ```bash
 npm run build
+```
+
+## Publicering på GitHub Pages
+
+Repot är förberett för GitHub Pages via GitHub Actions.
+
+1. Gå till GitHub-repot.
+2. Öppna **Settings**.
+3. Öppna **Pages**.
+4. Välj **Source: GitHub Actions**.
+5. Push till `main`.
+
+När deployen är klar bör appen finnas på:
+
+```text
+https://chipchop87.github.io/SpetsGuiden/
 ```
 
 ## Innehåll i appen
@@ -99,6 +115,9 @@ Använda källor och stödmaterial:
 ```text
 SpetsGuiden/
   README.md
+  .github/
+    workflows/
+      deploy.yml
   spela-direkt/
     index.html
     styles.css
