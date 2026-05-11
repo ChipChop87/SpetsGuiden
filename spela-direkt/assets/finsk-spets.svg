@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" role="img" aria-label="Finsk spets">
+  <path d="M103 295c22 58 82 88 164 78 70-8 117-45 133-101 10-37-6-91-48-121-46-33-118-34-174-4-56 31-96 90-75 148z" fill="#cf6f32" stroke="#2b1a12" stroke-width="9"/>
+  <path d="M300 113c38-36 86-34 113-5 30 32 25 80-13 105-31 20-76 16-104-11-25-25-25-62 4-89z" fill="#d97838" stroke="#2b1a12" stroke-width="9"/>
+  <path d="M334 96l-1-67 47 48M398 101l49-43-2 71" fill="#d97838" stroke="#2b1a12" stroke-width="9" stroke-linejoin="round"/>
+  <circle cx="384" cy="141" r="10" fill="#2b1a12"/>
+  <path d="M426 164c18 4 31 13 38 27-15 4-32 0-47-11" fill="#fff7ed" stroke="#2b1a12" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M347 178c18 20 44 25 72 10" fill="none" stroke="#2b1a12" stroke-width="8" stroke-linecap="round"/>
+  <path d="M118 289c-50-12-74-50-62-90 11-37 50-53 78-37 29 17 29 53 8 72-15 13-39 16-58 5" fill="none" stroke="#2b1a12" stroke-width="15" stroke-linecap="round"/>
+  <path d="M181 364l-22 39M263 372l-8 35M333 342l20 43M397 289l33 28" stroke="#2b1a12" stroke-width="14" stroke-linecap="round"/>
+  <path d="M201 229c30 25 88 25 123-1" fill="none" stroke="#fff7ed" stroke-width="22" stroke-linecap="round" opacity=".85"/>
+  <path d="M210 160c33-15 76-17 110 2" fill="none" stroke="#f2a469" stroke-width="18" stroke-linecap="round"/>
+</svg>

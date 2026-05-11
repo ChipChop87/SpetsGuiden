@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#9b4f2c">
+    <title>SpetsGuiden</title>
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Finsk spets från valp till vuxen</p>
+          <h1>SpetsGuiden</h1>
+          <p class="lead">En lugn och praktisk app för nya hundägare: välj ålder och se vad som är vanligt, vad du ska träna på och vilka utmaningar du kan förvänta dig.</p>
+        </div>
+        <img class="dog-art" src="assets/finsk-spets.svg" alt="Illustration av finsk spets">
+      </header>
+
+      <nav class="tabs" aria-label="Appens delar">
+        <button class="tab active" data-tab="timeline">Ålder</button>
+        <button class="tab" data-tab="breed">Rasprofil</button>
+        <button class="tab warning-tab" data-tab="warnings">Varningar</button>
+      </nav>
+
+      <section class="screen" id="timelineScreen">
+        <aside class="age-list" id="ageList" aria-label="Välj ålder"></aside>
+        <article class="stage-card" id="stageCard"></article>
+      </section>
+
+      <section class="screen hidden" id="breedScreen">
+        <article class="info-layout">
+          <div>
+            <p class="eyebrow">Rasen i korthet</p>
+            <h2>Finsk spets</h2>
+            <p>Finsk spets är en alert, livlig och självständig nordisk spets. Rasen är framtagen som skällande fågelhund och har ofta tydlig jaktlust, snabb reaktion på ljud och rörelser samt stark vilja att berätta när något händer.</p>
+          </div>
+          <div class="quick-grid">
+            <div><strong>Passar bäst med</strong><span>ägare som vill träna mjukt, vara konsekventa och ge både rörelse och nosarbete.</span></div>
+            <div><strong>Räkna med</strong><span>skall, jaktintresse, pälsfällning, unghundsperioder och behov av tydliga vardagsrutiner.</span></div>
+            <div><strong>Viktigt tidigt</strong><span>socialisering, inkallning, hantering, ensamhetsträning och lugn träning runt barn.</span></div>
+          </div>
+        </article>
+        <div class="card-grid">
+          <article class="mini-card"><h3>Skall och larm</h3><p>Rasens skall är inte "trots" i sig. Den är avlad för att markera. Målet är att lära hunden när det räcker, inte att försöka ta bort all kommunikation.</p></article>
+          <article class="mini-card"><h3>Jaktlust</h3><p>Små djur, fåglar och snabba rörelser kan trigga. Använd koppel/lina tills inkallning fungerar i störning.</p></article>
+          <article class="mini-card"><h3>Päls</h3><p>Dubbelpälsen behöver regelbunden borstning, särskilt vid fällning. Bada sparsamt och håll koll på klor, tänder och öron.</p></article>
+          <article class="mini-card"><h3>Relation</h3><p>Belöna kontakt, gör korta pass och avsluta innan valpen blir övertrött. Finsk spets svarar bäst på trygg, tydlig och vänlig träning.</p></article>
+        </div>
+      </section>
+
+      <section class="screen hidden" id="warningsScreen">
+        <article class="warning-hero">
+          <p class="eyebrow">Varningar</p>
+          <h2>Gör inte detta</h2>
+          <p>Den här delen är extra tydlig för att minska stress: vissa saker är vanliga, andra kräver snabb kontakt med veterinär. Vid osäkerhet är det alltid rimligt att ringa veterinär och fråga.</p>
+        </article>
+        <div class="warning-grid" id="warningGrid"></div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

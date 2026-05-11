@@ -1,0 +1,16 @@
+{
+  "name": "SpetsGuiden",
+  "short_name": "SpetsGuiden",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f8efe5",
+  "theme_color": "#9b4f2c",
+  "icons": [
+    {
+      "src": "finsk-spets.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
